@@ -20,27 +20,21 @@ class RolesTableSeeder extends Seeder
         \DB::table('roles')->insert(array (
             0 => 
             array (
-                'created_at' => '2023-07-24 06:44:03',
-                'guard_name' => 'web',
                 'id' => 1,
-                'name' => 'writer',
-                'updated_at' => '2023-07-24 06:44:03',
+                'name' => 'admin',
+                'display_name' => 'Admin',
+                'description' => 'God of HQ',
+                'created_at' => '2023-06-01 13:36:38',
+                'updated_at' => '2023-06-01 13:36:38',
             ),
             1 => 
             array (
-                'created_at' => '2023-07-24 06:44:03',
-                'guard_name' => 'web',
                 'id' => 2,
-                'name' => 'admin',
-                'updated_at' => '2023-07-24 06:44:03',
-            ),
-            2 => 
-            array (
-                'created_at' => '2023-07-24 06:44:06',
-                'guard_name' => 'web',
-                'id' => 3,
-                'name' => 'super-admin',
-                'updated_at' => '2023-07-24 06:44:06',
+                'name' => 'spectator',
+                'display_name' => 'Spectator',
+                'description' => 'Spectator of HQ',
+                'created_at' => '2023-06-01 13:36:38',
+                'updated_at' => '2023-06-01 13:36:38',
             ),
         ));
 

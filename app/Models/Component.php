@@ -10,24 +10,20 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Permission
+ * Class Component
  * 
  * @property int $id
  * @property string $name
- * @property string|null $display_name
- * @property string|null $description
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  *
  * @package App\Models
  */
-class Permission extends Model
+class Component extends Model
 {
-	protected $table = 'permissions';
+	protected $table = 'components';
 
 	protected $fillable = [
-		'name',
-		'display_name',
-		'description'
+		'name'
 	];
 }

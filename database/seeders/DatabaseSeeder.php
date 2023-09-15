@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -12,24 +13,22 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
-
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
-        $this->call(UsersTableSeeder::class);
-        $this->call(BooksTableSeeder::class);
-        $this->call(FailedJobsTableSeeder::class);
-        $this->call(MigrationsTableSeeder::class);
-        $this->call(ModelHasPermissionsTableSeeder::class);
-        $this->call(ModelHasRolesTableSeeder::class);
-        $this->call(PasswordResetTokensTableSeeder::class);
+        
+        $this->call(ComponentsTableSeeder::class);
+        $this->call(HqSettingsTableSeeder::class);
+        $this->call(LogsTableSeeder::class);
+        $this->call(MirrorStatusesTableSeeder::class);
+        $this->call(PasswordResetsTableSeeder::class);
+        $this->call(PermissionRoleTableSeeder::class);
         $this->call(PermissionsTableSeeder::class);
-        $this->call(PersonalAccessTokensTableSeeder::class);
-        $this->call(PostsTableSeeder::class);
+        $this->call(RoleUserTableSeeder::class);
         $this->call(RolesTableSeeder::class);
-        $this->call(RoleHasPermissionsTableSeeder::class);
-        $this->call(SessionsTableSeeder::class);
+        $this->call(ScheduledShutdownsTableSeeder::class);
+        $this->call(SeedsTableSeeder::class);
+        $this->call(SubdomainComponentsTableSeeder::class);
+        $this->call(SubdomainStatesTableSeeder::class);
+        $this->call(SubdomainsTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
+        $this->call(VersionInformationEmailAddressesTableSeeder::class);
     }
 }

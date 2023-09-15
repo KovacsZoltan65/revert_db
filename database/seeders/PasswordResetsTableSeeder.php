@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
-class PermissionsTableSeeder extends Seeder
+class PasswordResetsTableSeeder extends Seeder
 {
     /**
      * Auto generated seeder file.
@@ -15,7 +15,7 @@ class PermissionsTableSeeder extends Seeder
     {
         
 
-        \DB::table('permissions')->truncate();
+        \DB::table('password_resets')->truncate();
         
 
         
