@@ -14,17 +14,23 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         
+        $this->call(BooksTableSeeder::class);
         $this->call(ComponentsTableSeeder::class);
+        $this->call(FailedJobsTableSeeder::class);
         $this->call(HqSettingsTableSeeder::class);
         $this->call(LogsTableSeeder::class);
         $this->call(MirrorStatusesTableSeeder::class);
-        $this->call(PasswordResetsTableSeeder::class);
-        $this->call(PermissionRoleTableSeeder::class);
+        $this->call(ModelHasPermissionsTableSeeder::class);
+        $this->call(ModelHasRolesTableSeeder::class);
+        $this->call(PasswordResetTokensTableSeeder::class);
         $this->call(PermissionsTableSeeder::class);
-        $this->call(RoleUserTableSeeder::class);
+        $this->call(PersonalAccessTokensTableSeeder::class);
+        $this->call(PostsTableSeeder::class);
+        $this->call(RoleHasPermissionsTableSeeder::class);
         $this->call(RolesTableSeeder::class);
         $this->call(ScheduledShutdownsTableSeeder::class);
         $this->call(SeedsTableSeeder::class);
+        $this->call(SessionsTableSeeder::class);
         $this->call(SubdomainComponentsTableSeeder::class);
         $this->call(SubdomainStatesTableSeeder::class);
         $this->call(SubdomainsTableSeeder::class);

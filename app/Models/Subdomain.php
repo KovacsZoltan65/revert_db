@@ -8,6 +8,7 @@ namespace App\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * Class Subdomain
@@ -27,13 +28,15 @@ use Illuminate\Database\Eloquent\Model;
  * @property int $sso
  * @property int $access_control_system
  * @property Carbon $last_export
- * @property Carbon $created_at
- * @property Carbon $updated_at
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $deleted_at
  *
  * @package App\Models
  */
 class Subdomain extends Model
 {
+	use SoftDeletes;
 	protected $table = 'subdomains';
 
 	protected $casts = [

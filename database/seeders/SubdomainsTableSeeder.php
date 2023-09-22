@@ -34,9 +34,10 @@ class SubdomainsTableSeeder extends Seeder
                 'is_mirror' => 0,
                 'sso' => 0,
                 'access_control_system' => 5,
-                'last_export' => '2023-06-01 13:40:03',
-                'created_at' => '2023-06-01 13:40:03',
-                'updated_at' => '2023-06-29 13:49:37',
+                'last_export' => '2023-01-01 00:00:00',
+                'created_at' => '2023-09-22 11:23:20',
+                'updated_at' => '2023-09-22 11:23:20',
+                'deleted_at' => NULL,
             ),
             1 => 
             array (
@@ -54,9 +55,10 @@ class SubdomainsTableSeeder extends Seeder
                 'is_mirror' => 0,
                 'sso' => 0,
                 'access_control_system' => 0,
-                'last_export' => '2023-06-16 13:22:04',
-                'created_at' => '2023-06-16 13:22:04',
-                'updated_at' => '0000-00-00 00:00:00',
+                'last_export' => '2023-01-01 00:00:00',
+                'created_at' => '2023-09-22 11:23:20',
+                'updated_at' => '2023-09-22 11:23:20',
+                'deleted_at' => NULL,
             ),
             2 => 
             array (
@@ -74,9 +76,10 @@ class SubdomainsTableSeeder extends Seeder
                 'is_mirror' => 0,
                 'sso' => 1,
                 'access_control_system' => 0,
-                'last_export' => '2023-06-16 13:22:04',
-                'created_at' => '2023-06-16 13:22:04',
-                'updated_at' => '2023-08-15 08:52:13',
+                'last_export' => '2023-01-01 00:00:00',
+                'created_at' => '2023-09-22 11:23:20',
+                'updated_at' => '2023-09-22 11:23:20',
+                'deleted_at' => NULL,
             ),
             3 => 
             array (
@@ -94,9 +97,10 @@ class SubdomainsTableSeeder extends Seeder
                 'is_mirror' => 0,
                 'sso' => 0,
                 'access_control_system' => 5,
-                'last_export' => '2023-06-16 13:22:04',
-                'created_at' => '2023-06-16 13:22:04',
-                'updated_at' => '0000-00-00 00:00:00',
+                'last_export' => '2023-01-01 00:00:00',
+                'created_at' => '2023-09-22 11:23:20',
+                'updated_at' => '2023-09-22 11:23:20',
+                'deleted_at' => NULL,
             ),
             4 => 
             array (
@@ -114,9 +118,10 @@ class SubdomainsTableSeeder extends Seeder
                 'is_mirror' => 0,
                 'sso' => 0,
                 'access_control_system' => 5,
-                'last_export' => '2023-06-16 13:22:04',
-                'created_at' => '2023-06-16 13:22:04',
-                'updated_at' => '0000-00-00 00:00:00',
+                'last_export' => '2023-01-01 00:00:00',
+                'created_at' => '2023-09-22 11:23:20',
+                'updated_at' => '2023-09-22 11:23:20',
+                'deleted_at' => NULL,
             ),
             5 => 
             array (
@@ -134,9 +139,10 @@ class SubdomainsTableSeeder extends Seeder
                 'is_mirror' => 0,
                 'sso' => 0,
                 'access_control_system' => 5,
-                'last_export' => '1000-01-01 00:00:00',
-                'created_at' => '1000-01-01 00:00:00',
-                'updated_at' => '1000-01-01 00:00:00',
+                'last_export' => '2023-01-01 00:00:00',
+                'created_at' => '2023-09-22 11:23:20',
+                'updated_at' => '2023-09-22 11:23:20',
+                'deleted_at' => NULL,
             ),
             6 => 
             array (
@@ -154,9 +160,10 @@ class SubdomainsTableSeeder extends Seeder
                 'is_mirror' => 0,
                 'sso' => 0,
                 'access_control_system' => 0,
-                'last_export' => '2023-06-16 13:22:04',
-                'created_at' => '2023-06-16 13:22:04',
-                'updated_at' => '0000-00-00 00:00:00',
+                'last_export' => '2023-01-01 00:00:00',
+                'created_at' => '2023-09-22 11:23:20',
+                'updated_at' => '2023-09-22 11:23:20',
+                'deleted_at' => NULL,
             ),
             7 => 
             array (
@@ -174,9 +181,10 @@ class SubdomainsTableSeeder extends Seeder
                 'is_mirror' => 0,
                 'sso' => 0,
                 'access_control_system' => 0,
-                'last_export' => '2023-06-16 13:22:04',
-                'created_at' => '2023-06-16 13:22:04',
-                'updated_at' => '0000-00-00 00:00:00',
+                'last_export' => '2023-01-01 00:00:00',
+                'created_at' => '2023-09-22 11:23:20',
+                'updated_at' => '2023-09-22 11:23:20',
+                'deleted_at' => NULL,
             ),
             8 => 
             array (
@@ -194,9 +202,10 @@ class SubdomainsTableSeeder extends Seeder
                 'is_mirror' => 0,
                 'sso' => 0,
                 'access_control_system' => 0,
-                'last_export' => '2023-06-16 13:22:04',
-                'created_at' => '2023-06-16 13:22:04',
-                'updated_at' => '0000-00-00 00:00:00',
+                'last_export' => '2023-01-01 00:00:00',
+                'created_at' => '2023-09-22 11:23:20',
+                'updated_at' => '2023-09-22 11:23:20',
+                'deleted_at' => NULL,
             ),
         ));
 

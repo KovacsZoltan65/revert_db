@@ -21,20 +21,26 @@ class RolesTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'name' => 'admin',
-                'display_name' => 'Admin',
-                'description' => 'God of HQ',
-                'created_at' => '2023-06-01 13:36:38',
-                'updated_at' => '2023-06-01 13:36:38',
+                'name' => 'writer',
+                'guard_name' => 'web',
+                'created_at' => '2023-09-22 11:42:34',
+                'updated_at' => '2023-09-22 11:42:34',
             ),
             1 => 
             array (
                 'id' => 2,
-                'name' => 'spectator',
-                'display_name' => 'Spectator',
-                'description' => 'Spectator of HQ',
-                'created_at' => '2023-06-01 13:36:38',
-                'updated_at' => '2023-06-01 13:36:38',
+                'name' => 'admin',
+                'guard_name' => 'web',
+                'created_at' => '2023-09-22 11:42:34',
+                'updated_at' => '2023-09-22 11:42:34',
+            ),
+            2 => 
+            array (
+                'id' => 3,
+                'name' => 'super-admin',
+                'guard_name' => 'web',
+                'created_at' => '2023-09-22 11:42:35',
+                'updated_at' => '2023-09-22 11:42:35',
             ),
         ));
 
