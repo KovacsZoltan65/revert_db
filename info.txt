@@ -2,6 +2,7 @@ MIGRATIONS
 composer require kitloong/laravel-migrations-generator --dev
 php artisan migrate:generate    // OK
 php artisan migrate:generate --tables="table1,table2,table3,table4,table5"
+php artisan migrate:generate --tables="subdomains"
 php artisan migrate:generate --ignore="table3,table4,table5"
 
 MODELS
